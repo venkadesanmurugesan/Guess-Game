@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: rgb(117, 117, 117);
+}
+.number {
+  background-color: ghostwhite;
+  width: 8rem;
+  padding: 1rem;
+}
+.guess {
+  width: 10rem;
+  padding: 1rem;
+  font-size: xx-large;
+  margin-bottom: 1rem;
+}
+.check {
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: xx-large;
+}
+.again {
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: xx-large;
+  position: absolute;
+  left: 1px;
+}
+@media screen and (max-width: 650px) {
+  .again {
+    position: static;
+  }
+}
